@@ -1,0 +1,16 @@
+{
+  "apps": [
+    {
+      "name": "Node / Express / Mongo Test",
+      "script": "bin/www",
+      "append_env_to_name": true,
+      "exec_mode": "cluster",
+      "log_date_format": "YYYY-MM-DD HH:mm Z",
+      "watch": true,
+      "env_dev": {
+        "PORT": 6005,
+        "NODE_ENV": "development"
+      }
+    }
+  ]
+}
